@@ -1,9 +1,13 @@
 function firstLetter(inputString) {
-    return inputString[0];
+    if (inputString) {
+        return inputString[0];
+    } else {
+        return undefined;
+    }
 }
 
 function lastLetter(inputString) {
-
+    return inputString.length -1;   
 }
 
 function letterAtPosition(inputString, position) {
@@ -11,11 +15,11 @@ function letterAtPosition(inputString, position) {
 }
 
 function addTwoNumbers(num1, num2) {
-
+    return num1 + num2; 
 }
 
 function multiplyTwoNumbers(num1, num2) {
-
+    return num1 * num2;
 }
 
 function calculator(operation, num1, num2) {
